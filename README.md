@@ -5,8 +5,8 @@
 
 ## 依赖
 
->python >= 3.6
-tensorflow 1.14.0
+ - python >= 3.6
+ - tensorflow 1.14.0
 
 
 ## 数据样例
