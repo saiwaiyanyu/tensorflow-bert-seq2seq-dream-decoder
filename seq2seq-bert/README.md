@@ -12,6 +12,17 @@
     bert
 
 
+## 下载bert预训练模型
+
+    $ wget -c https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip
+    $ unzip chinese_L-12_H-768_A-12.zip 
+    
+
+## 下载bert源代码
+下载 [**bert**](https://github.com/google-research/bert) 放入项目目录**bert**下，
+
+    $ git clone https://github.com/google-research/bert.git
+    
 ## 数据样例
 
     {
