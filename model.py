@@ -42,8 +42,8 @@ def train():
     tf.logging.info("sample size: %s", len(inputs))
     inputs_dev = inputs[0:100]
     outputs_dev = outputs[0:100]
-    inputs_train = inputs[100: 400 ]
-    outputs_train = outputs[100: 400]
+    inputs_train = inputs[100:  ]
+    outputs_train = outputs[100: ]
 
 
 
