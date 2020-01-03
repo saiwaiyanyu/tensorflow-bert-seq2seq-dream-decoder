@@ -23,4 +23,5 @@ parser.add_argument("--vocab_file", type=str, default="chinese_L-12_H-768_A-12/v
 parser.add_argument("--bert_config", type=str, default="chinese_L-12_H-768_A-12/bert_config.json", help="bert_config")
 parser.add_argument("--is_training", type=bool, default=True, help="is_training")
 parser.add_argument("--checkpoint_dir", type=str, default="result", help="checkpoint_dir")
+parser.add_argument("--init_checkpoint", type=str, default="chinese_L-12_H-768_A-12/bert_model.ckpt", help="init_checkpoint")
 args = parser.parse_args()
